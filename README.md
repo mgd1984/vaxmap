@@ -1,18 +1,20 @@
 # VaxMap - Ontario Vaccine Clinic Map
 
-@VaxHuntersCan and volunteers have put together the VaxFinder API (https://vax-availability-api.azurewebsites.net/swagger) which is an excellent source of information for app developers and end-users.  
+@VaxHuntersCan and volunteers have put together the VaxFinder API (https://vax-availability-api.azurewebsites.net/swagger) which is an excellent source of information for app developers and end-users. 
 
-This repo contains a couple files: 
-- getData.R that connects to the VaxFinder API using `httr` and `jsonlite` 
+This code in this repo can be used to pull data from the VaxFinder API and a build an interactive map of vaccine clinic locations in Ontario.  
+
+Files in this repo: 
+- getData.R connects to the VaxFinder API using `httr` and `jsonlite` 
 - app.R builds an interactive `Shiny` app using `Leaflet` and a few other libraries 
-- ClinicAddresses.rds for retrieiving data frame of previously geocoded clinic addresses from getData.R
+- ClinicAddresses.rds retrieves a data frame of previously geocoded clinic addresses from getData.R
 
-Areas for Improvement:
-- Incorporating more VaxFinderAPI endpoints as map search parameters 
+For Further Development:
+- Incorporating more VaxFinderAPI endpoints as map search parameters
+- Improve search features (case-insensitivity, etc.) 
 - Fix data anomalies (incorrectly geocoded coordinates, etc.) 
-- UI improvements 
+- UI/UX improvement 
 - ...
-
 
 [![](https://github.com/mgd1984/vaxmap/blob/main/vaxmap.png?raw=true)](https://overviewanalytics.shinyapps.io/VaxMapR/)
 
