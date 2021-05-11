@@ -14,4 +14,5 @@ Areas for Improvement:
 - ...
 
 
+[![](https://github.com/mgd1984/vaxmap/blob/main/vaxmap.png?raw=true)](https://overviewanalytics.shinyapps.io/VaxMapR/)
 
