@@ -16,5 +16,5 @@ For Further Development:
 - UI/UX improvement 
 - ...
 
-[![](https://github.com/mgd1984/vaxmap/blob/main/vaxmap.png?raw=true)](https://overviewanalytics.shinyapps.io/VaxMapR/)
+[![](https://github.com/mgd1984/vaxmap/blob/main/vaxmap.png?raw=true)](https://overviewanalytics.shinyapps.io/VaxMap/)
 
