@@ -10,10 +10,9 @@ Files in this repo:
 - ClinicAddresses.rds retrieves a data frame of previously geocoded clinic addresses from getData.R
 
 For Further Development:
-- Incorporating more VaxFinderAPI endpoints as map search parameters
-- Improve search features (case-insensitivity, etc.) 
-- Fix data anomalies (incorrectly geocoded coordinates, etc.) 
-- UI/UX improvement 
+- Incorporating more endpoints as map search parameters
+- Fix data anomalies (confirming popups present accurately, etc.) 
+- UI/UX improvements - 
 - ...
 
 [![](https://github.com/mgd1984/vaxmap/blob/main/vaxmap2.png)](https://overviewanalytics.shinyapps.io/VaxMap/)
